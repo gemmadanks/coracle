@@ -1,7 +1,7 @@
-site_name: Python Project Template Documentation
-site_url: https://gemmadanks.github.io/python-project-template/
-repo_url: https://github.com/gemmadanks/python-project-template
-repo_name: python-project-template
+site_name: Coracle Documentation
+site_url: https://gemmadanks.github.io/coracle/
+repo_url: https://github.com/gemmadanks/coracle
+repo_name: coracle
 
 theme:
   name: "material"

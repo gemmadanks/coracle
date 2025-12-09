@@ -1,9 +1,9 @@
 [project]
-name = "package_name"
-version = "0.9.0"
-description = "A python package."
+name = "coracle"
+version = "0.0.0"
+description = "An experimental Python package for radio astronomy data processing."
 authors = [
-    {name = "Your Name",email = "you@example.com"}
+    {name = "Gemma Danks"}
 ]
 license = "BSD-3-Clause"
 readme = "README.md"
@@ -34,7 +34,7 @@ docs = [
 
 
 [tool.coverage.run]
-source = ["src/package_name"]
+source = ["src/coracle"]
 omit = [
     "tests/*",
     "conftest.py"
@@ -45,5 +45,5 @@ requires = ["uv-build>=0.1,<1.0"]
 build-backend = "uv_build"
 
 [tool.uv.build-backend]
-module-name = "package_name"
+module-name = "coracle"
 module-root = "src"
