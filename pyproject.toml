@@ -1,6 +1,6 @@
 [project]
 name = "coracle"
-version = "0.0.0"
+version = "0.9.1"
 description = "An experimental Python package for radio astronomy data processing."
 authors = [
     {name = "Gemma Danks"}
